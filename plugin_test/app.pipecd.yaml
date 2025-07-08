@@ -1,0 +1,12 @@
+apiVersion: pipecd.dev/v1beta1
+kind: Application
+spec:
+  name: sqldef-plugin-test
+  labels:
+    env: local
+    owner: kadai0308
+  planner:
+    alwaysUsePipeline: true
+  pipeline:
+    stages:
+      - name: SQLDEF_FUNCTION_SYNC
