@@ -9,4 +9,4 @@ spec:
     alwaysUsePipeline: true
   pipeline:
     stages:
-      - name: SQLDEF_test
+      - name: SQLDEF_FUNCTION_SYNC
