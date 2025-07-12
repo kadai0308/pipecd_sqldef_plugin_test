@@ -22,4 +22,4 @@ CREATE TABLE books (
     author VARCHAR(100) NOT NULL,
     published_year INT,
     hihi1 INT
-);
+);;
