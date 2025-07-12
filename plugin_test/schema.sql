@@ -21,5 +21,6 @@ CREATE TABLE books (
     title VARCHAR(100) NOT NULL,
     author VARCHAR(100) NOT NULL,
     published_year INT,
-    hihi1 INT
+    hihi1 INT,
+    hihi2 INT
 );
