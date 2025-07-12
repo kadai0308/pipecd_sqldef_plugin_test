@@ -9,6 +9,6 @@ spec:
     alwaysUsePipeline: true
   pipeline:
     stages:
-      - name: SQLDEF_FUNCTION_SYNC
+      - name: SQLDEF_SYNC
         with:
           enable_drop: true
