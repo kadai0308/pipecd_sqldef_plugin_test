@@ -10,5 +10,5 @@ spec:
   pipeline:
     stages:
       - name: SQLDEF_SYNC
-        with:
-          enable_drop: true
+        # with:
+        #   enable_drop: true
