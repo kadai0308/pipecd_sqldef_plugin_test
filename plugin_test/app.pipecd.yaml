@@ -10,3 +10,5 @@ spec:
   pipeline:
     stages:
       - name: SQLDEF_PLAN
+      - name: SQLDEF_APPLY
+      - name: SQLDEF_ROLLBACK
