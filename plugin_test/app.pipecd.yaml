@@ -9,4 +9,4 @@ spec:
     alwaysUsePipeline: true
   pipeline:
     stages:
-      - name: SQLDEF_SYNC
+      - name: SQLDEF_PLAN
