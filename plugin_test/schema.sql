@@ -20,6 +20,5 @@ CREATE TABLE books (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(100) NOT NULL,
     author VARCHAR(100) NOT NULL,
-    published_year INT,
-    hihi1 INT
+    published_year INT
 );;
